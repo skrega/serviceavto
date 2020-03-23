@@ -150,11 +150,12 @@
         text-align: center;
         background-color: #2d2e34;
         z-index: 1;
-
+        width: 100%;
         li {
             display: block;
             padding-top: 5px;
             padding-bottom: 5px;
+            
             border-bottom: 1px solid #3a3b43;
 
             &:hover {
