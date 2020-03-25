@@ -141,6 +141,7 @@
 }
 
 @media (max-width: 900px) {
+
     .menu__list {
         display: none;
         position: absolute;
@@ -150,12 +151,12 @@
         text-align: center;
         background-color: #2d2e34;
         z-index: 1;
-        width: 100%;
+
         li {
             display: block;
             padding-top: 5px;
             padding-bottom: 5px;
-            
+            width: 100%;
             border-bottom: 1px solid #3a3b43;
 
             &:hover {
@@ -197,7 +198,6 @@
         flex-wrap: wrap;
     }
 }
-
 @media (max-width: 640px) {
     .reviews__comment-item {
         border-right: none;
@@ -268,10 +268,13 @@
         }
 
     }
+    .certified{
+        padding-top: 90px;
+        padding-bottom: 80px;
+    }
 
 }
 
-@media (max-width: 480px) {}
 
 @media (max-width: 450px) {
     .header__contact {
@@ -315,7 +318,7 @@
     .booking__info-form {
         form {
             button {
-                padding: 20px 90px;
+                padding: 20px 70px;
             }
         }
     }
